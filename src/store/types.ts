@@ -73,13 +73,3 @@ export interface EditSelectedCity {
   };
   type: SelectedCityTypes.EDIT_SELECTED_CITY
 }
-
-export interface EditCity {
-  payload: {
-    name: string;
-    weather: string;
-    status: boolean;
-    temperature: number;
-  }
-  type: CityActionTypes.EDIT_CITY;
-}

@@ -28,7 +28,7 @@ export const ListItem: React.FC<{
       <span>{name}</span>
       <div>
       <input className="Checkbox" checked={status || false} onChange={(e) => select(e)} type="checkbox"></input>
-      <span onClick={remove}>x</span>
+      <span className="Cursor" onClick={remove}>x</span>
       </div>
       
     </div>  
