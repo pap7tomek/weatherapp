@@ -1,0 +1,42 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  padding: 50px;
+}
+
+.Form {
+  width: 20vw;
+  align-self: flex-start;
+}
+.Result {
+  margin-left: 1vw;
+  width: 20vw;
+  align-self: flex-start;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Input {
+  width: 15vw;
+}
+.Button {
+  width: 4.5vw;
+}
+.ListItem {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.Checkbox {
+  margin-right: 10px;
+}
+
